@@ -1,0 +1,4 @@
+elements:
+    - name
+    - description
+    - parent_id

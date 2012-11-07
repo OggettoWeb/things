@@ -1,0 +1,18 @@
+created_date_from_2011-01-02_to_:
+    ids: [2, 3, 4]
+created_date_from_2011-01-02_to_2011-01-03:
+    ids: [2, 3]
+created_date_from__to_2011-01-03:
+    ids: [1, 2, 3]
+start_date_from_2011-01-03_to_:
+    ids: [2, 3, 4]
+start_date_from_2011-01-03_to_2011-01-04:
+    ids: [2, 3]
+start_date_from__to_2011-01-04:
+    ids: [1, 2, 3]
+end_date_from_2011-01-04_to_:
+    ids: [2, 3, 4]
+end_date_from_2011-01-04_to_2011-01-05:
+    ids: [2, 3]
+end_date_from__to_2011-01-05:
+    ids: [1, 2, 3]

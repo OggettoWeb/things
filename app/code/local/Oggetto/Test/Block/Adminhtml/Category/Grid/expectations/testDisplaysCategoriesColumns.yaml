@@ -1,0 +1,4 @@
+columns:
+    - entity_id
+    - name
+    - action

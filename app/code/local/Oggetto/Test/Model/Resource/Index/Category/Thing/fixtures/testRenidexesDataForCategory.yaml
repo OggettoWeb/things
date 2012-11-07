@@ -1,0 +1,36 @@
+tables: 
+    # The following hierarchy:
+    #
+    # cat_1
+    # ..cat_2    <- thing 2
+    # ....cat_3  <- thing 1
+    # ..cat_4    
+    # ....(cat_3 will be moved here) <- thing 1
+    things/category:
+        - entity_id : 1
+          path      : 1
+        - entity_id : 2
+          parent_id : 1
+          path      : 1/2
+        - entity_id : 3
+          parent_id : 2
+          path      : 1/2/3
+        - entity_id : 4
+          parent_id : 1
+          path      : 1/4
+    things/thing:
+        - entity_id   : 1
+          category_id : 3
+        - entity_id   : 2
+          category_id : 2
+    things/category_thing_index:
+        - category_id : 1
+          thing_id    : 1
+        - category_id : 1
+          thing_id    : 2
+        - category_id : 2
+          thing_id    : 1
+        - category_id : 2
+          thing_id    : 2
+        - category_id : 3
+          thing_id    : 1

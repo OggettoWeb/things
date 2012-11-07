@@ -1,0 +1,18 @@
+tables:
+    things/thing:
+        - entity_id    : 1
+          created_date : 2011-01-01
+          start_date   : 2011-01-02
+          end_date     : 2011-01-03
+        - entity_id    : 2
+          created_date : 2011-01-02
+          start_date   : 2011-01-03
+          end_date     : 2011-01-04
+        - entity_id    : 3
+          created_date : 2011-01-03
+          start_date   : 2011-01-04
+          end_date     : 2011-01-05
+        - entity_id    : 4
+          created_date : 2011-01-04
+          start_date   : 2011-01-05
+          end_date     : 2011-01-06

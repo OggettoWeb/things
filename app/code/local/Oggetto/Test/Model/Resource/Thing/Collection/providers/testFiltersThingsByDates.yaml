@@ -1,0 +1,36 @@
+-
+    - created_date
+    - 2011-01-02
+    - null
+-
+    - created_date
+    - 2011-01-02
+    - 2011-01-03
+-
+    - created_date
+    - null
+    - 2011-01-03
+-
+    - start_date
+    - 2011-01-03
+    - null
+-
+    - start_date
+    - 2011-01-03
+    - 2011-01-04
+-
+    - start_date
+    - null
+    - 2011-01-04
+-
+    - end_date
+    - 2011-01-04
+    - null
+-
+    - end_date
+    - 2011-01-04
+    - 2011-01-05
+-
+    - end_date
+    - null
+    - 2011-01-05

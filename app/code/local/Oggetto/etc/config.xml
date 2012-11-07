@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Oggetto Web things extension for Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade
+ * the Oggetto Things module to newer versions in the future.
+ * If you wish to customize the Oggetto Things module for your needs
+ * please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Oggetto
+ * @package    Oggetto_Things
+ * @copyright  Copyright (C) 2012 Oggetto Web ltd (http://oggettoweb.com/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <phpunit>
+        <suite>
+            <modules>
+                <Oggetto_Things/>
+            </modules>
+        </suite>
+    </phpunit>
+    <global>
+        <models>
+            <things>
+                <class>Oggetto_Things_Model</class>
+                <resourceModel>things_resource</resourceModel>
+            </things>
+            <things_resource>
+                <class>Oggetto_Things_Model_Resource</class>
+                <entities>
+                    <thing>
+                        <table>things_entity</table>
+                    </thing>
+                    <category>
+                        <table>things_category_entity</table>
+                    </category>
+                    <category_thing_index>
+                        <table>things_category_thing_index</table>
+                    </category_thing_index>
+                </entities>
+            </things_resource>
+        </models>
+        <resources>
+            <oggetto_things_setup>
+                <setup>
+                    <module>Oggetto_Things</module>
+                    <connection>core_setup</connection>
+                </setup>
+            </oggetto_things_setup>
+        </resources>
+        <helpers>
+            <things>
+                <class>Oggetto_Things_Helper</class>
+            </things>
+        </helpers>
+        <blocks>
+            <things>
+                <class>Oggetto_Things_Block</class>
+            </things>
+        </blocks>
+        <index>
+            <indexer>
+                <things_categories>
+                    <model>things/index_category_thing</model>
+                </things_categories>
+            </indexer>
+        </index>
+    </global>
+    <modules>
+        <Oggetto_Things>
+            <version>1.0.4</version>
+        </Oggetto_Things>
+    </modules>
+    <admin>
+        <routers>
+            <adminhtml>
+                <args>
+                    <modules>
+                        <things before="Mage_Adminhtml">Oggetto_Things_Adminhtml</things>
+                    </modules>
+                </args>
+            </adminhtml>
+        </routers>
+    </admin>
+    <adminhtml>
+        <layout>
+            <updates>
+                <Oggetto_Things>
+                    <file>oggetto/things.xml</file>
+                </Oggetto_Things>
+            </updates>
+        </layout>
+        <translate>
+            <modules>
+                <Oggetto_Things>
+                    <files>
+                        <default>Oggetto_Things.csv</default>
+                    </files>
+                </Oggetto_Things>
+            </modules>
+        </translate>
+    </adminhtml>
+</config>
+

@@ -1,0 +1,10 @@
+tables:
+    things/thing:
+        - entity_id : 1
+          is_active : 1
+        - entity_id : 2
+          is_active : 1
+        - entity_id : 3
+          is_active : 1
+        - entity_id : 4
+          is_active : 0

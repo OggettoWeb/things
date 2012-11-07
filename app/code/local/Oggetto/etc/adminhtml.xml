@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * Oggetto Web things extension for Magento
+ *
+ * NOTICE OF LICENSE
+ *
+ * This source file is subject to the Open Software License (OSL 3.0)
+ * that is bundled with this package in the file LICENSE.txt.
+ * It is also available through the world-wide-web at this URL:
+ * http://opensource.org/licenses/osl-3.0.php
+ *
+ * DISCLAIMER
+ *
+ * Do not edit or add to this file if you wish to upgrade
+ * the Oggetto Things module to newer versions in the future.
+ * If you wish to customize the Oggetto Things module for your needs
+ * please refer to http://www.magentocommerce.com for more information.
+ *
+ * @category   Oggetto
+ * @package    Oggetto_Things
+ * @copyright  Copyright (C) 2012 Oggetto Web ltd (http://oggettoweb.com/)
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+-->
+<config>
+    <menu>
+        <cms>
+            <children>
+                <things translate="title" module="things">
+                    <title>Dynamic content</title>
+                    <sort_order>200</sort_order>
+                    <children>
+                        <data translate="title" module="things">
+                            <title>Posts</title>
+                            <action>adminhtml/things</action>
+                            <sort_order>200</sort_order>
+                        </data>
+                        <categories translate="title" module="things">
+                            <title>Categories</title>
+                            <action>adminhtml/things_categories</action>
+                            <sort_order>201</sort_order>
+                        </categories>
+                    </children>
+                </things>
+            </children>
+        </cms>
+    </menu>
+    <acl>
+        <resources>
+            <admin>
+                <children>
+                    <cms>
+                        <children>
+                            <things translate="title" module="things">
+                                <title>Dynamic Content</title>
+                                <children>
+                                    <data translate="title" module="things">
+                                        <title>Posts</title>
+                                    </data>
+                                    <categories translate="title" module="things">
+                                        <title>Categories</title>
+                                    </categories>
+                                </children>
+                            </things>
+                        </children>
+                    </cms>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

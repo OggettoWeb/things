@@ -1,0 +1,12 @@
+elements:
+    - name
+    - description
+    - is_active
+    - url_key
+    - text
+    - created_date
+    - start_date
+    - end_date
+    - category_id
+    - file
+    - image

@@ -1,0 +1,4 @@
+tables:
+    things/thing:
+        - entity_id : 1
+          name      : foo

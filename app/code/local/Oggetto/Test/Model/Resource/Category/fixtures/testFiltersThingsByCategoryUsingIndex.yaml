@@ -1,0 +1,18 @@
+tables:
+    things/category:
+        - entity_id : 1
+        - entity_id : 2
+    things/thing:
+        - entity_id   : 1
+          category_id : 1
+        - entity_id   : 2
+          category_id : 1
+        - entity_id   : 3
+          category_id : 2
+    things/category_thing_index:
+        - category_id : 1
+          thing_id    : 1
+        - category_id : 1
+          thing_id    : 2
+        - category_id : 2
+          thing_id    : 3
