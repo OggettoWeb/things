@@ -1,0 +1,4 @@
+things
+======
+
+Magento things module
