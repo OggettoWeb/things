@@ -1,0 +1,4 @@
+app/code/local/Oggetto/Things app/code/local/Oggetto/Things
+app/design/adminhtml/default/default/layout/oggetto/things.xml app/design/adminhtml/default/default/layout/oggetto/things.xml
+app/etc/modules/Oggetto_Things.xml app/etc/modules/Oggetto_Things.xml
+app/locale/ru_RU/Oggetto_Things.csv app/locale/ru_RU/Oggetto_Things.csv
