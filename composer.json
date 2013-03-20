@@ -1,0 +1,15 @@
+{
+    "name": "oggettoweb/things",
+    "type": "magento-module",
+    "license": "OSL-3.0",
+    "description": "Manage blog posts, news and other editable content with ease",
+    "authors":[
+        {
+            "name": "Daniel Kocherga",
+            "email": "dan@oggettoweb.com"
+        }
+    ],
+    "require": {
+        "magento-hackathon/magento-composer-installer": "*"
+    }
+}
